@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow:  rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.logo{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list ul li {
+    display: inline;
+    list-style: none;
+
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+.list,ul,li,a{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 3ms ease;
+}
+
+.list,ul,li,a:hover{
+    color: blue;
+}
+
+.hero{
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.hero h3{
+    font-size: 55px;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    line-height: 1;
+}
+.hero p{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.blog{
+   text-align: center;
+   padding-bottom: 40px;
+}
+.cards{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+
+#blog h2{
+    font-size: 44px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cards p{
+    width: 300px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer>marquee>span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+footer>h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+footer>p{
+    text-align: center;
+    width: 430px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer>.visit{
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+footer>.end{
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.dp{
+    margin: auto;
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main{
+    font-size: 25px;
+}
+
+.paragraph-1{
+    margin: auto;
+    justify-content: center;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.paragraph-2{
+    margin: auto;
+    justify-content: center;
+}
+
+.paragraph-2>h2{
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+.paragraph-2>img{
+    margin-top: 40px;
+}
+
+.blog-item>ul>li{
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: 100;
+}
+.facebook{
+    display: flex;
+    justify-content: space-between;
+}
+.mika{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.mika>img{
+    margin: 10px;
+    width: 10rem;
+    height: 5rem;
+}
+.mika>span{
+    margin-bottom: 30px;
+}
+
+.next{
+    border-top: 2px solid black;
+}
+
+.next>h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+.next-image{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.next-image>div>p{
+    width: 330px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form{
+    margin: auto;
+    margin-bottom: 5rem;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    border: 2px solid black;
+    border-top: 5px solid black;
+}
+.form>h2{
+    font-size: 40px;
+    margin: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.form>input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 25px;
+    width: 240px;
+}
+.form>button{
+    height: 28px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
